@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Barlow Semi Condensed";
+    src: url("Barlow_Semi_Condensed/BarlowSemiCondensed-Bold.ttf")
+}
+body {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 700;
+    color: white;
+    background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+header {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 3%;
+}
+.logo {
+    position: absolute;
+    width: 25%;
+    top: 15%;
+    left: 5%;
+}
+.scoreBar {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: white;
+    height: 75%;
+    width: 20%;
+    border-radius: 10px;
+    margin: 2%;
+}
+#score {
+    color: hsl(229, 25%, 31%);
+    font-size: 5em;
+    text-align: center;
+}
+#blueThing {
+    color: hsl(229, 64%, 46%);
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 10%;
+}
+.triangle {
+    position: relative;
+    left: 35%;
+    margin-top: 10%;
+    width: 30%;
+    text-align: center;
+}
+#paper {
+    position: absolute;
+    left: 1%;
+}
+#scissors {
+    position: absolute;
+    right: 1%;
+}
+#rock {
+    position: absolute;
+    left: 35%;
+    top: 75%;
+}
+#start {
+    display: block;
+}
+#end {
+    display: none;
+}
+#rules {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 20px; 
+    display: none;
+}
+#rulesButton {
+    border-radius: 20px;
+    border: 2px, white;
+    font-weight: 600;
+}
+
